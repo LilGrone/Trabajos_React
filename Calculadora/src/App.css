@@ -1,0 +1,97 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e2f; 
+  color: #ffffff; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Contenedor de la calculadora */
+.Calculadora {
+  background-color: #2a2a3d; 
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 300px;
+}
+
+/* Pantalla */
+.Pantalla {
+  margin-bottom: 20px;
+}
+
+.Pantalla input {
+  width: 90%;
+  height: 50px;
+  background-color: #1e1e2f;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-align: right;
+  padding: 10px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Botones */
+.Botones {
+  display: grid;
+  gap: 10px;
+}
+
+.boton {
+  height: 50px;
+  background-color: #3b3b5e; 
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #5e5e8a; 
+}
+
+.boton:active {
+  background-color: #7e7eb0; 
+}
+
+/* Colores específicos para botones */
+.boton:nth-child(4n) {
+  background-color: #8a2be2; 
+}
+
+.boton:nth-child(4n):hover {
+  background-color: #a64dff;
+}
+
+.boton:nth-child(4n):active {
+  background-color: #c17dff;
+}
+
+
+/* Pie de página */
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #8888ff; 
+}
+
+
+
+
+  
